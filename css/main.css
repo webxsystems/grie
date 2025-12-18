@@ -68,6 +68,26 @@ header {
   min-height: 35rem;
 }
 
+nav ul {
+  display: flex;
+}
+nav > ul li {
+  height: 100px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 0 20px;
+  border-bottom: 4px solid transparent;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+li:hover {
+  background-color: var(--navigation-hover-bg);
+  border-bottom: 4px solid var(--navigation-highlight);
+  color: var(--navigation-highlight);
+}
+
+
 h1 {
   font-family: Karla, Aria, sans-serif;
   font-size: 2.5rem;
